@@ -1,13 +1,31 @@
 {
   "files": {
-    "main.css": "/YourPet/static/css/main.7b9a171d.css",
-    "main.js": "/YourPet/static/js/main.01929f06.js",
+    "main.css": "/YourPet/static/css/main.00f47d3e.css",
+    "main.js": "/YourPet/static/js/main.58c10d28.js",
+    "static/js/680.47132231.chunk.js": "/YourPet/static/js/680.47132231.chunk.js",
+    "static/css/771.6b7b4a36.chunk.css": "/YourPet/static/css/771.6b7b4a36.chunk.css",
+    "static/js/771.1d8bc051.chunk.js": "/YourPet/static/js/771.1d8bc051.chunk.js",
+    "static/js/589.4869955d.chunk.js": "/YourPet/static/js/589.4869955d.chunk.js",
+    "static/js/202.fee26fde.chunk.js": "/YourPet/static/js/202.fee26fde.chunk.js",
+    "static/js/982.5f4abaaf.chunk.js": "/YourPet/static/js/982.5f4abaaf.chunk.js",
+    "static/js/199.6359b030.chunk.js": "/YourPet/static/js/199.6359b030.chunk.js",
+    "static/js/537.30f0ac1d.chunk.js": "/YourPet/static/js/537.30f0ac1d.chunk.js",
+    "static/js/944.7db42b40.chunk.js": "/YourPet/static/js/944.7db42b40.chunk.js",
     "index.html": "/YourPet/index.html",
-    "main.7b9a171d.css.map": "/YourPet/static/css/main.7b9a171d.css.map",
-    "main.01929f06.js.map": "/YourPet/static/js/main.01929f06.js.map"
+    "main.00f47d3e.css.map": "/YourPet/static/css/main.00f47d3e.css.map",
+    "main.58c10d28.js.map": "/YourPet/static/js/main.58c10d28.js.map",
+    "680.47132231.chunk.js.map": "/YourPet/static/js/680.47132231.chunk.js.map",
+    "771.6b7b4a36.chunk.css.map": "/YourPet/static/css/771.6b7b4a36.chunk.css.map",
+    "771.1d8bc051.chunk.js.map": "/YourPet/static/js/771.1d8bc051.chunk.js.map",
+    "589.4869955d.chunk.js.map": "/YourPet/static/js/589.4869955d.chunk.js.map",
+    "202.fee26fde.chunk.js.map": "/YourPet/static/js/202.fee26fde.chunk.js.map",
+    "982.5f4abaaf.chunk.js.map": "/YourPet/static/js/982.5f4abaaf.chunk.js.map",
+    "199.6359b030.chunk.js.map": "/YourPet/static/js/199.6359b030.chunk.js.map",
+    "537.30f0ac1d.chunk.js.map": "/YourPet/static/js/537.30f0ac1d.chunk.js.map",
+    "944.7db42b40.chunk.js.map": "/YourPet/static/js/944.7db42b40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9a171d.css",
-    "static/js/main.01929f06.js"
+    "static/css/main.00f47d3e.css",
+    "static/js/main.58c10d28.js"
   ]
 }

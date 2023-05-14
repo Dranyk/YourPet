@@ -1,6 +1,6 @@
 /**
  * @license React
- * react-dom.production.min.js
+ * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -10,7 +10,7 @@
 
 /**
  * @license React
- * react-jsx-runtime.production.min.js
+ * use-sync-external-store-shim.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -20,7 +20,7 @@
 
 /**
  * @license React
- * react.production.min.js
+ * use-sync-external-store-shim/with-selector.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -28,9 +28,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/**
- * @license React
- * scheduler.production.min.js
+/** @license React v16.13.1
+ * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
