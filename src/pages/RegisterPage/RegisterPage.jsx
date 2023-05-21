@@ -5,7 +5,7 @@ import UserPage from '../UserPage/UserPage';
 import Modal from './RegisterForm/RegisterModal/Modal';
 
 // import { register } from '../../redux/auth/auth-operations';
-import { signup } from '../../redux/auth/auth-operations';
+import { signup } from '../../redux/auth/authOperations';
 
 import RegisterForm from './RegisterForm/RegisterForm';
 import Container from 'components/Container/Container';

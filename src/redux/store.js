@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import authReducer from './auth/auth-slice';
+import { authReducer } from './auth/authSlice';
 // import { rootReducer } from '../pages/LoginPage/root-reducer';
 import newsReducer from './news/news-slice';
 
@@ -18,7 +18,7 @@ import {
 import storage from 'redux-persist/lib/storage';
 
 const authPersistConfig = {
-  key: 'token',
+  key: 'auth',
   storage,
   whitelist: ['token'],
 };

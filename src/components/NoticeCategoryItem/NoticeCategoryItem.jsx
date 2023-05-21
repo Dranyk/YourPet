@@ -6,9 +6,8 @@ import HeartIcon from '../images/icons/HeartIcon';
 import TrashIcon from '../images/icons/TrashIcon';
 import MaleIcon from '../images/icons/MaleIcon';
 
-import { getUser } from '../../redux/auth/auth-selectors';
+import { selectUser, selectIsLoggedIn } from '../../redux/auth/authSelectors';
 import Button from '../ButtonNotices/ButtonNotices';
-import { isUserLogin } from '../../redux/auth/auth-selectors';
 import useToggleModalWindow from '../../hooks/useToggleModalWindow';
 import Modal from '../Modal/Modal';
 
@@ -30,8 +29,8 @@ const NoticeCategoryItem = ({
   owner,
   name,
 }) => {
-  const user = useSelector(getUser);
-  const isLoggedIn = useSelector(isUserLogin);
+  const user = useSelector(selectUser);
+  const isLoggedIn = useSelector(selectIsLoggedIn);
 
   const { isModalOpen, closeModal } = useToggleModalWindow();
 

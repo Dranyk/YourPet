@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 
-import { logout } from 'redux/auth/auth-operations';
+import { logout } from 'redux/auth/authOperations';
 
 import css from './Logout.module.css';
 import { LogoutIcon } from 'images/icons/userPageIcons';

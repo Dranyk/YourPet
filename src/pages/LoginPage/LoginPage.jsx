@@ -3,11 +3,11 @@ import { Navigate } from 'react-router-dom';
 
 import { LoginForm } from '../../components/LoginForm/LoginForm';
 import Container from 'components/Container/Container';
-import { login } from '../../redux/auth/auth-operations';
-import { isUserLogin } from '../../redux/auth/auth-selectors';
+import { login } from '../../redux/auth/authOperations';
+import { selectIsLoggedIn } from '../../redux/auth/authSelectors';
 
 const LoginPage = () => {
-  const isLogin = useSelector(isUserLogin);
+  const isLogin = useSelector(selectIsLoggedIn);
   const dispatch = useDispatch();
 
   const handleSignup = data => {
