@@ -13,7 +13,8 @@ import {
   ConfirmIcon,
 } from 'images/icons/userPageIcons';
 
-// import photodefault from 'images/img/userPhotoDefault.png';
+import photodefault from 'images/img/userPhotoDefault.png';
+console.dir(photodefault);
 
 const UserFormData = () => {
   const [userData, setUserData] = useState([]);
@@ -104,12 +105,7 @@ const UserFormData = () => {
                       src={URL.createObjectURL(formikProps.values.image)}
                       alt="Preview"
                     />
-                  )) || <img src={avatarURL} alt="name" />}
-                  {/* ||
-                    require('./images/default_image.png')(
-                      <img src="images/img/userPhotoDefault.png" alt="name" />
-                    )}
-                  images/img/userPhotoDefault.png */}
+                  )) || <img src={avatarURL || photodefault} alt="name" />}
                 </div>
 
                 {(formikProps.values.image && (
